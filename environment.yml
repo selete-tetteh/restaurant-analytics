@@ -1,0 +1,43 @@
+name: platos-pizza
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python and core data tools
+  - python=3.11
+  - pandas=2.2
+  - numpy=1.26
+  - sqlalchemy=2.0
+  - pymysql=1.1
+  - python-dotenv=1.0
+
+  # Forecasting
+  - prophet=1.1
+
+  # Dashboard
+  - streamlit=1.35
+
+  # Testing
+  - pytest=8.2
+
+  # Notebook environment
+  - jupyter=1.0
+  - ipykernel=6.29
+
+  # R and core R packages
+  - r-base=4.4
+  - r-essentials
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-lubridate
+  - r-scales
+  - r-broom
+  - r-glmnet
+  - r-randomforest
+
+  # Python packages best installed via pip
+  - pip
+  - pip:
+    - pytest-cov==5.0.0
