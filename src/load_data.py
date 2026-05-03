@@ -132,7 +132,7 @@ def load_dim_date(engine: object, dates: pd.Series) -> None:
     unique_dates["month_name"]   = unique_dates["date_id"].dt.strftime("%B")
     unique_dates["week"]         = unique_dates["date_id"].dt.isocalendar().week.astype(int)
     unique_dates["day_of_month"] = unique_dates["date_id"].dt.day
-    unique_dates["day_of_week"]  = unique_dates["date_id"].dt.dayofweek + 2  # align to MySQL: 1=Sun
+    unique_dates["day_of_week"] = unique_dates["date_id"].dt.dayofweek + 1  # # dayofweek returns 0 (Mon) to 6 (Sun). Adding 1 shifts to 1 (Mon) through 7 (Sun).
     unique_dates["day_name"]     = unique_dates["date_id"].dt.strftime("%A")
     unique_dates["is_weekend"]   = unique_dates["day_name"].isin(["Saturday", "Sunday"]).astype(int)
 
