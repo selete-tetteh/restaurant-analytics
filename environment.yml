@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  # Python and core data tools
+# Python and core data tools
   - python=3.11
   - pandas=2.2
   - numpy=1.26
@@ -11,10 +11,8 @@ dependencies:
   - pymysql=1.1
   - python-dotenv=1.0
   - seaborn
-  - sqlalchemy
-  - pymysql
-  - python-dotenv
-  - ipykernel
+  - ipykernel=6.29
+  - jupyter=1.0
 
   # Forecasting
   - prophet=1.1
@@ -24,10 +22,6 @@ dependencies:
 
   # Testing
   - pytest=8.2
-
-  # Notebook environment
-  - jupyter=1.0
-  - ipykernel=6.29
 
   # R and core R packages
   - r-base=4.4
@@ -41,6 +35,8 @@ dependencies:
   - r-broom
   - r-glmnet
   - r-randomforest
+  - r-rmariadb
+  - r-dotenv
 
   # Python packages best installed via pip
   - pip
