@@ -37,6 +37,7 @@ dependencies:
   - r-randomforest
   - r-rmariadb
   - r-dotenv
+  - r-here
 
   # Python packages best installed via pip
   - pip
