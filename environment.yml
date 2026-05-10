@@ -38,6 +38,8 @@ dependencies:
   - r-rmariadb
   - r-dotenv
   - r-here
+  - r-pwr
+  - r-effsize
 
   # Python packages best installed via pip
   - pip
