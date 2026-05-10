@@ -310,6 +310,7 @@ dependencies:
   - r-dplyr=1.2.1
   - r-dtplyr=1.3.3
   - r-e1071=1.7_17
+  - r-effsize=0.8.1
   - r-ellipsis=0.3.3
   - r-essentials=4.4
   - r-evaluate=1.0.5
@@ -396,6 +397,7 @@ dependencies:
   - r-pryr=0.1.6
   - r-ps=1.9.3
   - r-purrr=1.2.2
+  - r-pwr=1.3_0
   - r-quantmod=0.4.28
   - r-r6=2.6.1
   - r-ragg=1.5.2
